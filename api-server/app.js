@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import menuRotes from './routes/getbalance.js';
 
 const app = express();
-const PORT = 5001;
+const PORT = 5055;
 
 app.use(bodyParser.json());
 
