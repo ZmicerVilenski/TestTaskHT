@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[etherscan]
+okx = { key = "verifyContract", url = "https://api.routescan.io/v2/network/testnet/evm/43113/etherscan", chain = 65 }
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
