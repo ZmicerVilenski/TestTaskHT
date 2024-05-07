@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Zmicer Vilenski",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.8",
+    "express": "^4.18.2",
+    "web3": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
